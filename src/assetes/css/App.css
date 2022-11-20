@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    background: #ffffff7b;
+}
+
+.box{
+    background: #02063f;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.box h1{
+    color: rgb(255, 0, 217);
+    font-size: 35px;
+    padding: 20px;
+}
+.box input{
+    font-size: 30px;
+    padding: 0 10px;
+}
+.box input::placeholder{
+    font-size: 15px;
+    color: green;
+}
+.box button{
+    font-size: 30px;
+    background: rgb(255, 0, 217);
+    color: rgb(3, 17, 17);
+    padding: 0px 30px;
+}
+
+.list{
+    padding: 100px;
+}
+
+.list h2{
+    color: antiquewhite;
+}
+.list ul{
+    text-align: center;
+    padding: 0;
+}
+
+.list .item{
+    width: 60%;
+    text-transform: capitalize;
+    color: #02063f;
+    list-style: none;
+    background: #ffff;
+    font-size: 20px;
+    display: inline-block;
+    margin: 3px 2px;
+}
+.list .btn{
+    width: 30%;
+    font-size: 20px;
+}
+
+.list .btn-all{
+    margin: 10px;
+}
